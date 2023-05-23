@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.css.map">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body>
+<nav class="navbar navbar-expand-sm navbar-dark bg-light fixed-top" id="nav">
+  <a class="navbar-brand ml-5 text-white" href="#">Navbar</a>
+  <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+      aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavId">
+    <ul class="navbar-nav ml-auto mr-5 mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#apropos">Apropos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#competence">Competences</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#galerie">Galerie</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact" >Contact</a>
+      </li>
+     
+    </ul>
+  </div>
+</nav>
+<header class="container-fluid" id="accueil">
+      <div class="row ">
+        <div class="col-sm-5">
+         <div class="box ml-5">
+          <img src="assets/group.png" alt="">
+         </div>
+        </div>
+        <div class="col-sm-7">
+          <div class="box mr-5">
+            <h2>Club<span>ProsDev</span> est un groupe de <span>developpeurs</span> qui ont pour objectif 
+              d'amiliorer leur performances <span>en developpement web</span>. </h2>
+          </div>
+        </div>
+    </div>
+</header>
+
+<section class="container" id="apropos">
+   <div class="row">
+    <div class="col-md-6">
+      <div class="box1 mt-3">
+        <h2 class="mt-4">Apropos de nous</h2>
+        <h1 class="mt-4">Parlons de web</h1>
+        <p> <span>L</span>e monde est devenu digital.
+        Notre club composée de talents dans différents secteur du domaine est tellement 
+        intégrée aux dernières innovations et technologies que le numérique est notre langue.
+        <span>N</span>ous devenons complètement immergés dans les affaires et l’industrie de nos clients, acquérant la même vision pour atteindre les objectifs ensemble. <span>D</span>e plus, nous avons tiré parti des meilleures pratiques de notre expérience 
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="box1 mt-5 pt-5">
+        <video src="video3.mp4" autoplay loop muted></video>
+      </div>
+    </div>
+   </div>
+</section>
+<section class="container mt-5 pt-3" id="competence">
+  <h1>Nos Competences</h1>
+  <div class="row mt-4">
+    <div class="col-md-3">
+      <div class="box2">
+        <img src="assets/html.png" alt="">
+        <h3>Description</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab earum veritatis quis alias quae aperiam consectetur magni natus possimus sunt, blanditiis voluptatum aliquid nihil 
+          placeat velit neque nisi voluptates iusto.</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="box2">
+        <img src="assets/css.webp" alt="">
+        <h3>Description</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab earum veritatis quis alias quae aperiam consectetur magni natus possimus sunt, blanditiis voluptatum aliquid nihil
+           placeat velit neque nisi voluptates iusto.</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="box2">
+        <img src="assets/bootstrap.jpg" alt="">
+        <h3>Description</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab earum veritatis quis alias quae aperiam consectetur magni natus possimus sunt, blanditiis voluptatum aliquid nihil 
+          placeat velit neque nisi voluptates iusto.</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="box2">
+        <img src="assets/php.jpg" alt="">
+        <h3>Description</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab earum veritatis quis alias quae aperiam consectetur magni natus possimus sunt, blanditiis voluptatum aliquid nihil 
+          placeat velit neque nisi voluptates iusto.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!----Galerie-->
+<div class="container mt-5" id="galerie">
+  <h1>Galerie</h1>
+  <div id="carouselExampleIndicators" class="carousel slide mt-5" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+        <!---image1-->
+      <div class="carousel-item active">
+        <img src="assets/fall.jpg" class="d-block w-100" alt="...">
+      </div>
+      <!---fin image1-->
+      <!---image2-->
+      <div class="carousel-item">
+        <img src="assets/group.png" class="d-block w-100" alt="...">
+      </div>
+      <!---Fin image2-->
+       <!---image3-->
+      <div class="carousel-item">
+        <img src="assets/fall.jpg" class="d-block w-100" alt="...">
+      </div>
+      <!---fin image3-->
+       <!---image4-->
+      <div class="carousel-item">
+        <img src="assets/group.png" class="d-block w-100" alt="...">
+      </div>
+      <!---fin image4-->
+    </div>
+    <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </button>
+  </div>
+</div>
+<!----Fin Galerie-->
+<footer class="container-fluid" id="contact">
+   <div class="row">
+    <div class="col-md-5 m-auto">
+      <div class="box3 ml-auto " >
+        <form>
+          <h2>Contact</h2>
+          <label for="">Nom</label>
+          <input type="text" placeholder="Entrer votre nom">
+          <label for="">Prenom</label>
+          <input type="text" placeholder="Entrer votre prenom">
+          <label for="">Email</label>
+          <input type="email" placeholder="Entrer votre email">
+          <label for="">Message</label>
+          <textarea></textarea>
+          <button>Envoyer</button>
+        </form>
+      </div>
+    </div> 
+   </div>
+
+   <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Contact :+221 73 234 03 03| &copy;2023 Cohorte4.</h1>
+      </div>
+     </div>
+   </div>
+</footer>
+
+<script src="bootstrap/jquery-3.6.4.min.js"></script>
+<script src="bootstap/bootstrap.js"></script>
+<script src="bootstrap/bootstrap.js.map"></script>
+</body>
+</html>

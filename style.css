@@ -1,0 +1,253 @@
+#nav{
+    background:linear-gradient(rgb(21,221,221),rgb(1,0,0)) ;
+}
+
+#accueil{
+    background: url('assets/background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.box{
+    margin-top: 20%;
+    height: 500px;
+}
+
+.box img{
+    width: 90%;
+    background:linear-gradient(rgb(21,221,221),rgb(1,0,0)) ;
+	border-radius: 100%;
+    border-right: 7px solid darkcyan;
+    border-left: 10px solid darkcyan;
+	border-top-left-radius: 0px;
+}
+
+.box img:hover{
+    border-radius: 100%;
+    cursor: pointer;
+    transition: 3s;
+    background:linear-gradient(rgb(21,221,221),rgb(1,0,0)) ;
+}
+
+.box h2{
+    width: 85%;
+    color: white;
+    font-size: 49px;
+    font-weight: bolder;
+	text-shadow: 3px 3px 5px darkcyan,-3px -3px 5px #ccc;
+}
+
+.box h2 span{
+    color: darkcyan;
+}
+
+.box1{
+    width: 100%;
+}
+.box1 video{
+    width: 100%;
+    border: 5px solid darkcyan;
+}
+
+.box1 h2{
+   
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: darkcyan;
+}
+
+.box1 h1{ 
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px darkcyan;
+    border-bottom: 5px solid darkcyan;
+    border-radius: 10px;
+    width: 70%;
+
+    font-size: 43px;
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+}
+
+.box1 p{
+    
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.box2{
+    box-shadow: 3px 3px 5px #ccc,-3px -3px 5px #ccc;
+    padding: 5px;
+    position: relative;
+}
+
+.box2:hover{
+    transform: scale(1.03,1.03);
+    transition: 3s;
+}
+
+.box2 img{
+    width: 100%;
+    height: 200px;
+}
+
+.box2 h3{
+    text-align:center;
+    font-size: 20px;
+    font-weight: bolder;
+    color: darkcyan;
+    font-weight: bolder; 
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px darkcyan;  
+}
+
+.box2 p{
+    font-size: 20px;
+}
+#competence h1{
+    font-size: 30px;
+    font-weight: bolder;
+    color: darkcyan;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px darkcyan;
+    border-bottom: 5px solid darkcyan;
+    border-radius: 10px;
+    width: 27%;
+}
+
+#galerie{
+   
+}
+#galerie h1{
+    font-size: 30px;
+    font-weight: bolder;
+    color: darkcyan;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px darkcyan;
+    border-bottom: 5px solid darkcyan;
+    border-radius: 10px;
+    width: 12%;
+}
+
+#carouselExampleIndicators{
+    width: 100%;
+    height: 100%;
+    box-shadow: 3px 3px 5px darkcyan, -3px -3px 5px darkcyan;
+    border-radius: 17px;
+}
+
+#carouselExampleIndicators .carousel-control-prev{
+    width: 7%;
+    height: 100%;
+    background: darkcyan;
+    border-radius: 17px;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+
+#carouselExampleIndicators .carousel-control-next{
+    width: 7%;
+    height: 100%;
+    background: darkcyan;
+    border-radius: 17px;
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
+}
+
+.carousel-inner {
+    height: 520px;
+    border-radius: 17px;	
+}
+
+footer{
+    
+    margin-top: 7%;
+    padding-top: 5%;
+    /* background-color: darkcyan; */
+    background: linear-gradient(rgb(21,221,221),rgb(1,0,0));
+}
+
+.box3{
+    width: 100%;
+    
+}
+
+.box3 form{
+    width: 100%;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 2fr;
+    background: url('assets/images.jpg'); 
+    background-repeat: no-repeat;
+    background-size:cover;
+    z-index: -2;
+    box-shadow: 3px 3px 5px darkgrey,-3px -3px 5px darkgrey;
+}
+
+.box3 form h2{
+    font-size: 35px;
+    color: white;
+    font-family: system-ui;
+    font-weight: bolder;
+    text-align: center; 
+}
+
+.box3 form label{
+    font-size: 20px;
+	color: white;
+	font-weight: bolder;   
+}
+
+.box3 form input{
+    font-size: 17px;
+	color: #ccc;
+	padding: 2%;
+	outline: none;
+	border: none;
+	border-radius: 30px;
+    text-align: left;
+}
+
+.box3 form textarea{
+    height: 150px;
+    outline: none;
+    border-radius: 20px;
+}
+.box3 form button{
+    font-size: 20px;
+    margin-top: 2%;
+    padding: 1%;
+	color: white;
+	background-color:darkcyan ;
+	border: none;
+	cursor: pointer;
+	border-radius: 30px;
+	font-family: system-ui;
+	font-weight: bolder;
+}
+
+.box3 form button:hover{
+    transition: 1s;
+    color: darkcyan;
+	background-color: white;
+}
+
+footer h1{
+    margin-top: 2%;
+	width: 100%;
+	padding: 15px;
+	font-size: 25px;
+	color: white;
+	position: sticky;
+	bottom: 0px;
+    text-align: center; 
+}
+
+@media screen and(max-width:1080px){
+    
+}
